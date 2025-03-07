@@ -1,0 +1,22 @@
+<section class="hero">
+  <div class="content">
+    <h1 @fadeIn>
+      Hi, I'm <span>{{ name }}</span>
+    </h1>
+    <h2 @slideUp>{{ title }}</h2>
+    <p @fadeIn>{{ summary }}</p>
+    <a [href]="resumeLink" download class="btn" @slideUp>Download Resume</a>
+  </div>
+</section>
+<div class="hero-item">
+  <app-experience></app-experience>
+</div>
+<div class="hero-item">
+  <app-projects></app-projects>
+</div>
+<div class="hero-item">
+  <app-skills></app-skills>
+</div>
+<div class="hero-item">
+  <app-contact></app-contact>
+</div>

@@ -1,0 +1,50 @@
+<nav class="navbar">
+  <div class="logo">
+    <a routerLink="/">MyPortfolio</a>
+  </div>
+  <ul class="nav-links" [class.open]="isMenuOpen">
+    <li>
+      <a routerLink="/" (click)="toggleMenu()" routerLinkActive="isMenuOpen"
+        >Home</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/skills"
+        (click)="toggleMenu()"
+        routerLinkActive="isMenuOpen"
+        >Skills</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/experience"
+        (click)="toggleMenu()"
+        routerLinkActive="isMenuOpen"
+        >Experience</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/projects"
+        (click)="toggleMenu()"
+        routerLinkActive="isMenuOpen"
+        >Projects</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/contact"
+        (click)="toggleMenu()"
+        routerLinkActive="isMenuOpen"
+        >Contact</a
+      >
+    </li>
+  </ul>
+  <div class="hamburger" (click)="toggleMenu()">☰</div>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

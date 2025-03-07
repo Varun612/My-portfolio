@@ -1,0 +1,17 @@
+<section class="experience" [@staggeredExperience]>
+  <h2>Work Experience</h2>
+  <div class="timeline row">
+    <div class="col-sm-6 col-md-6 col-12" *ngFor="let exp of experiences">
+      <div class="exp-card">
+        <div>
+          <h3>{{ exp.role }}</h3>
+          <h4>{{ exp.company }}</h4>
+          <p>
+            <strong>{{ exp.duration }}</strong>
+          </p>
+          <p>{{ exp.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
