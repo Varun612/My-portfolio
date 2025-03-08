@@ -2,7 +2,7 @@
   <div class="logo">
     <a routerLink="/">MyPortfolio</a>
   </div>
-  <ul class="nav-links" [class.open]="isMenuOpen">
+  <ul class="nav-links" #menu [class.open]="isMenuOpen">
     <li>
       <a routerLink="/" (click)="toggleMenu()" routerLinkActive="isMenuOpen"
         >Home</a
@@ -41,7 +41,7 @@
       >
     </li>
   </ul>
-  <div class="hamburger" (click)="toggleMenu()">☰</div>
+  <div class="hamburger" #hamburger (click)="toggleMenu()">☰</div>
 </nav>
 
 <!-- Main Content -->
