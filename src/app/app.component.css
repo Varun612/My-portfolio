@@ -51,10 +51,13 @@
     flex-direction: column;
     position: absolute;
     background: #222;
-    width: 100%;
-    top: 60px;
-    left: 0;
     text-align: center;
+    width: 50%;
+    left: 162px;
+    border-radius: 10px;
+    height: 220px;
+    padding: 0.5rem;
+    top: 70px;
   }
 
   .nav-links.open {
