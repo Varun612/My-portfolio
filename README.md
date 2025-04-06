@@ -1,60 +1,96 @@
 # Portfolio Website
 
-A modern, responsive portfolio website built with Angular, featuring animations and a clean design.
+A modern, responsive portfolio website built with **Angular 19**, featuring elegant 3D animations, smooth transitions, and a clean, professional design.
 
-## Features
+## ✨ Features
 
-- Responsive design
-- Smooth animations
-- Contact form
-- Skills showcase
-- Project portfolio
-- Work experience timeline
+- Fully responsive layout for mobile, tablet, and desktop
+- Interactive 3D hover effects on cards (Projects, Skills, Experience)
+- Beautifully styled contact form with validation and animation
+- Skill progress bars with dynamic transitions
+- Timeline-style work experience section
+- Project showcase with animated cards and clean UI
 
-## Technologies Used
+## 🚀 Technologies Used
 
-- Angular 19
-- TypeScript
-- RxJS
-- Angular Animations
-- CSS3 with Flexbox
+- **Angular 19**
+- **TypeScript**
+- **RxJS**
+- **Angular Animations**
+- **CSS3 with Flexbox**
+- **Responsive Media Queries**
 
-## Getting Started
+## 🛠 Getting Started
 
-1. Clone the repository
-```bash
-git clone [your-repository-url]
-```
+1. **Clone the repository**
+   ```bash
+   git clone [your-repository-url]
+Install dependencies
 
-2. Install dependencies
-```bash
+bash
+Copy
+Edit
 npm install
-```
+Run the development server
 
-3. Run the development server
-```bash
+bash
+Copy
+Edit
 npm start
-```
+Open the app Visit http://localhost:4200 in your browser.
 
-4. Navigate to `http://localhost:4200/`
+📁 Project Structure
+css
+Copy
+Edit
+src/
+├── app/
+│   └── components/
+│       ├── hero/        → Hero section component
+│       ├── skills/      → Skills showcase component
+│       ├── projects/    → Project portfolio component
+│       ├── experience/  → Work experience timeline
+│       └── contact/     → Contact form component
+🧾 Build
+To generate the production build:
 
-## Project Structure
+bash
+Copy
+Edit
+ng build
+The compiled files will be stored in the dist/ directory.
 
-- `src/app/components/` - Contains all component files
-  - `hero/` - Hero section component
-  - `skills/` - Skills showcase component
-  - `projects/` - Projects portfolio component
-  - `experience/` - Work experience component
-  - `contact/` - Contact form component
+🤝 Contributing
+Fork the repository
 
-## Build
+Create a feature branch
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+bash
+Copy
+Edit
+git checkout -b feature/AmazingFeature
+Commit your changes
 
-## Contributing
+bash
+Copy
+Edit
+git commit -m "Add AmazingFeature"
+Push to the branch
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+bash
+Copy
+Edit
+git push origin feature/AmazingFeature
+Open a Pull Request
+
+📸 UI Enhancements (April 2025)
+All card components (Projects, Skills, Experience) now feature:
+
+3D hover animations using scale, rotate, and perspective
+
+Elevated box shadows for a premium look
+
+Clean typography with color hierarchy
+
+Mobile responsiveness with Flexbox and media queries
+
